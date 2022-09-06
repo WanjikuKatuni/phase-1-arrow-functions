@@ -1,9 +1,9 @@
-const divide = (num1,num2) => {
-    
+let  divide = function (x=2000,y=100) {
+    return (x/y);
 
-    return parseInt(num1)/parseInt(num2);
-}
-console.log(divide(2000,100));
+    // return division;
+};
+
 
 const square = num3 => {
     return num3*num3
